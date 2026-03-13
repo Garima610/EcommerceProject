@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+h2{
+    text-align: center;
+    padding: 30px;
+}
+.container{
+    width:80%;
+margin:auto;
+
+display:grid;
+
+
+grid-template-columns: repeat(3,1fr);
+
+gap:20px;
+  
+}
+.product{
+    text-align:center;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+
+.product img{
+width:150px;
+height:150px;
+object-fit:contain;
+}
+.product p{
+font-weight:600;
+}
+.product button{
+background:darkcyan;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:20px;
+cursor:pointer;
+}
