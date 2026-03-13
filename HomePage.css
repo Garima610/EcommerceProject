@@ -9,6 +9,9 @@ margin-left: 20px;
 margin-top: 10px;
 gap: 100px;
 cursor: pointer;
+position: relative;
+z-index: 1000;
+
 }
 
 a{
@@ -26,7 +29,7 @@ a{
 right: 0;
 width: 100%;
   display: flex;
-  /* padding-left: 50px; */
+  padding-left: 40px;
   gap: 40px;
   font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   max-width: none;
@@ -34,10 +37,11 @@ width: 100%;
   overflow: hidden;
   transition: max-height 0.5s ease;
   box-shadow: 0 4px 10px rgb(2, 2, 2);
+  background-color: white;
 }
 
 .drop1 .slideL{
-  padding-left: 230px;
+  padding-left: 110px;
 }
 .items1:hover .drop1{
   max-height: 400px;
@@ -51,6 +55,7 @@ span{
 .drop2{
   position: absolute;
   top: 30px;
+  background-color: white;
   
   margin-left:0;
 right: 0;
@@ -67,7 +72,7 @@ width: 100%;
 }
 
 .drop2 .sldl{
-  padding-left: 230px;
+  padding-left: 110px;
 }
 .items2:hover .drop2{
   max-height: 400px;
@@ -76,6 +81,7 @@ width: 100%;
 .drop3{
   position: absolute;
   top: 30px;
+  background-color: white;
   
   margin-left:0;
 right: 0;
@@ -91,7 +97,7 @@ width: 100%;
   box-shadow: 0 4px 10px rgb(2, 2, 2);
 }
 .drop3 .sdL{
-  padding-left: 230px;
+  padding-left: 110px;
   
 }
 .items3:hover .drop3{
@@ -101,6 +107,7 @@ width: 100%;
 .drop4{
   position: absolute;
   top: 30px;
+  background-color: white;
   
   margin-left:0;
 right: 0;
@@ -116,7 +123,7 @@ width: 100%;
   box-shadow: 0 4px 10px rgb(2, 2, 2);
 }
 .drop4 .sidel{
-  padding-left: 230px;
+  padding-left: 110px;
 }
 .items4:hover .drop4{
   max-height: 400px;
@@ -124,6 +131,7 @@ width: 100%;
 .drop5{
   position: absolute;
   top: 30px;
+  background-color: white;
   
   margin-left:0;
 right: 0;
@@ -139,7 +147,7 @@ width: 100%;
   box-shadow: 0 4px 10px rgb(2, 2, 2);
 }
 .drop5 .watchL{
-  padding-left: 230px;
+  padding-left: 110px;
 }
 .items5:hover .drop5{
   max-height: 400px;
@@ -148,6 +156,7 @@ width: 100%;
 .drop6{
   position: absolute;
   top: 30px;
+  background-color: white;
   
   margin-left:0;
 right: 0;
@@ -163,7 +172,7 @@ width: 100%;
   box-shadow: 0 4px 10px rgb(2, 2, 2);
 }
 .drop6 .accL{
-  padding-left: 230px;
+  padding-left: 110px;
 }
 .items6:hover .drop6{
   max-height: 400px;
