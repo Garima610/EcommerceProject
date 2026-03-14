@@ -45,3 +45,24 @@ padding:8px 15px;
 border-radius:20px;
 cursor:pointer;
 }
+
+
+.footer{
+     margin-top: 3%;
+  padding: 10px;
+    display: flex;
+    border: 1px solid rgb(232, 230, 230);
+    background-color: rgb(232, 230, 230);
+    justify-content: center;
+    gap: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+}
+
+#iconn{
+    margin-left: 60%;
+}
