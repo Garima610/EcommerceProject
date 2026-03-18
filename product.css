@@ -45,20 +45,21 @@ padding:8px 15px;
 border-radius:20px;
 cursor:pointer;
 }
-.product:hover{
+ .product button:hover{
 
-transform: translateY(-6px);
+/* transform: translateY(-6px); */
 
 
 box-shadow:0 10px 25px rgba(0,0,0,0.15);
 
 
-background: rgb(172, 197, 218);
+background: black;
 
 }
+/*
 .product:hover img{
 transform:scale(1.1);
-}
+} */
 
 
 .footer{
@@ -79,4 +80,13 @@ a{
 
 #iconn{
     margin-left: 60%;
+}
+
+#back{
+margin-left: 50%;
+margin-top: 2%;
+color: white;
+background-color: black;
+border-radius: 8px;
+padding: 2px 4px;
 }
